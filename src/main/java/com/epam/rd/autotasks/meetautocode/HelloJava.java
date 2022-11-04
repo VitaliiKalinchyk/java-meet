@@ -1,8 +1,11 @@
 package com.epam.rd.autotasks.meetautocode;
 
-public class HelloJava {
-    public static void main(String[] args) {
-        //Write a program, printing "Hello, Java course!"
+import static com.epam.rd.autotasks.meetautocode.constants.Constants.*;
 
+public class HelloJava {
+
+    public static void main(String[] args) {
+        PrintClass printClass = new PrintClass(GREETING);
+        printClass.consolePrint();
     }
 }
